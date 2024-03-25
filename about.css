@@ -1,0 +1,122 @@
+body {
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+}
+
+header {
+	background-color: #000;
+	color: #fff;
+	padding: 1rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+header nav {
+	display: flex;
+	justify-content: center;
+}
+
+header nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+header nav li {
+	margin-right: 1rem;
+}
+
+header nav a {
+	color: #fff;
+	text-decoration: none;
+	padding: 0.5rem;
+	border-radius: 5px;
+}
+
+header nav a:hover {
+	background-color: #555;
+}
+
+header nav a.current {
+	background-color: #fff;
+	color: #333;
+}
+
+main {
+	padding: 5rem;
+}
+
+main h1 {
+	font-size: 3rem;
+}
+
+main h2 {
+	font-size: 2rem;
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+main ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 2rem;
+}
+
+main li {
+	flex: 1;
+	margin-right: 2rem;
+	margin-bottom: 1rem;
+}
+
+main h3 {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+main p {
+	margin-bottom: 1rem;
+}
+
+footer {
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+footer p {
+	margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+	header nav a {
+		padding: 0.25rem;
+	}
+
+	main li {
+		flex: 100%;
+	}
+
+	main h2 {
+		font-size: 1.5rem;
+	}
+
+	main h3 {
+		font-size: 1.25rem;
+	}
+
+	main p {
+		font-size: 1rem;
+	}
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Contact.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cars.html">Cars</a></li>
+                <li><a href="services.html">Our Services</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="current">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+
+
+
+        <div class="container">
+            <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="email">Email Id</label>
+                <input type="text" id="email" name="email id" placeholder="Your email id..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">India</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <p>You can also contact us by phone at (91) 9876543210 or visit us at 123 Main GAO INDIA.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Car Company</p>
+    </footer>
+</body>
+
+</html>
